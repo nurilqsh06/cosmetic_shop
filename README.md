@@ -23,4 +23,4 @@ Cosmetic Shop is a full-featured application that allows users to browse cosmeti
 | External API with HTTP | DummyJSON products API |
 | JSON serialization | Products parsed to Dart models |
 | Shared Preferences | Theme preference saved |
-| Firebase Authentication | Sign up, Sign in |
+| Firebase Authentication | Sign up, Sign in | 
