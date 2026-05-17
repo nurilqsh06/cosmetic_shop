@@ -1,0 +1,48 @@
+name: cosmetic_shop
+description: A cosmetic shop e-commerce application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Routing
+  go_router: ^13.0.0
+
+  # State management
+  riverpod: ^2.4.0
+  flutter_riverpod: ^2.4.0
+
+  # Networking
+  http: ^1.1.0
+
+  # Local storage
+  shared_preferences: ^2.2.2
+
+  # Drift
+  drift: ^2.14.0
+  sqlite3_flutter_libs: ^0.5.18
+  path_provider: ^2.1.0
+  path: ^1.8.3
+
+  # Firebase (только Auth, без Firestore)
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+
+  # UI
+  cached_network_image: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  drift_dev: ^2.14.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
